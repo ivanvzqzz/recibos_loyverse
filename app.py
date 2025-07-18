@@ -79,4 +79,9 @@ all_receipts = existing_receipts + new_receipts
 with open(file_path, "w", encoding="utf-8") as f:
     json.dump(all_receipts, f, ensure_ascii=False, indent=4)
 
-print(f"Append {len(new_receipts)} new receipts. Total now: {len(all_receipts)}")
+if len(new_receipts) == 0:
+    print("No new receipts")
+elif len(new_receipts) == 1:
+    print(f"Appended 1 new receipt. Total now: {len(all_receipts)}")
+else:
+    print(f"✅ Appended {len(new_receipts)} new receipts. Total now: {len(all_receipts)}")
