@@ -80,4 +80,3 @@ with open(file_path, "w", encoding="utf-8") as f:
     json.dump(all_receipts, f, ensure_ascii=False, indent=4)
 
 print(f"Append {len(new_receipts)} new receipts. Total now: {len(all_receipts)}")
-    
