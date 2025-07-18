@@ -67,4 +67,4 @@ The `requirements.txt` file includes the necessary Python packages for the proje
 
 ## License 
 
-This project is open-source and available under the [MIT license](LICENSE).
+This project is open-source and available under the [MIT license](LICENSE.md).
