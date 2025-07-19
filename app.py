@@ -84,4 +84,4 @@ if len(new_receipts) == 0:
 elif len(new_receipts) == 1:
     print(f"Appended 1 new receipt. Total now: {len(all_receipts)}")
 else:
-    print(f"✅ Appended {len(new_receipts)} new receipts. Total now: {len(all_receipts)}")
+    print(f"Appended {len(new_receipts)} new receipts. Total now: {len(all_receipts)}")
